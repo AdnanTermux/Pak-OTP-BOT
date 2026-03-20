@@ -1,0 +1,17 @@
+python-telegram-bot[job-queue]==21.7
+
+aiohttp==3.9.5
+
+SQLAlchemy[asyncio]==2.0.30
+
+aiosqlite==0.20.0
+
+beautifulsoup4==4.12.3
+
+lxml==5.2.2
+
+phonenumbers==8.13.39
+
+websockets
+
+python-dotenv==1.0.1

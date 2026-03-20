@@ -1,0 +1,90 @@
+# ─────────────────────────────────────────────────────────────────────────
+#  dex.txt  —  Sigma Fetcher V10  |  Login Panel Credentials
+#
+#  FORMAT
+#  ──────
+#  panel=<Name>
+#  PANEL_BASE_URL = "<http://ip/ints>"   ← include /ints, NO trailing slash
+#  PANEL_USERNAME = "<username>"
+#  PANEL_PASSWORD = "<password>"
+#
+#  NOTES
+#  ──────
+#  • This file is read ONCE on first startup (when the panels table is empty).
+#    After that, manage panels from the bot's Admin Panel → 🔌 Panels.
+#  • URLs have NO trailing slash. The bot appends /login, /SMSCDRStats etc.
+#    itself — a trailing slash would create double-slashes like /ints//login.
+#  • Two accounts on the same server (same base_url, different credentials)
+#    are fully isolated — each gets its own HTTP session and cookie jar.
+#  • Total panels: 14  (11 /ints servers + 3 timesms accounts)
+# ─────────────────────────────────────────────────────────────────────────
+
+panel=Hadi
+PANEL_BASE_URL = "http://185.2.83.39/ints"
+PANEL_USERNAME = "Adnan6292"
+PANEL_PASSWORD = "Adnan6292"
+
+panel=Hadi2
+PANEL_BASE_URL = "http://185.2.83.39/ints"
+PANEL_USERNAME = "SigmaSms"
+PANEL_PASSWORD = "SigmaSms"
+
+panel=Dgroup
+PANEL_BASE_URL = "http://139.99.63.204/ints"
+PANEL_USERNAME = "Adnan526"
+PANEL_PASSWORD = "Adnan526"
+
+panel=Lamix
+PANEL_BASE_URL = "http://139.99.208.63/ints"
+PANEL_USERNAME = "Adnan6292"
+PANEL_PASSWORD = "Adnan6292"
+
+panel=Lamix2
+PANEL_BASE_URL = "http://139.99.208.63/ints"
+PANEL_USERNAME = "SigmaSms1"
+PANEL_PASSWORD = "SigmaSms1"
+
+panel=NEXTSMS
+PANEL_BASE_URL = "http://51.161.128.71/ints"
+PANEL_USERNAME = "Adnan6292"
+PANEL_PASSWORD = "Adnan6292"
+
+panel=Goat
+PANEL_BASE_URL = "http://167.114.117.67/ints"
+PANEL_USERNAME = "Adnan6292"
+PANEL_PASSWORD = "Adnan6292"
+
+panel=Wolf
+PANEL_BASE_URL = "http://213.32.24.208/ints"
+PANEL_USERNAME = "SigmaSMS"
+PANEL_PASSWORD = "SigmaSMS"
+
+panel=EMO
+PANEL_BASE_URL = "http://139.99.69.196/ints"
+PANEL_USERNAME = "SigmaSMS"
+PANEL_PASSWORD = "SigmaSMS"
+
+panel=MSI
+PANEL_BASE_URL = "http://145.239.130.45/ints"
+PANEL_USERNAME = "SigmaSMS"
+PANEL_PASSWORD = "SigmaSMS"
+
+panel=Time
+PANEL_BASE_URL = "http://www.timesms.net"
+PANEL_USERNAME = "Adnan6292"
+PANEL_PASSWORD = "Adnan6292"
+
+panel=Time2
+PANEL_BASE_URL = "http://www.timesms.net"
+PANEL_USERNAME = "SigmaSMS"
+PANEL_PASSWORD = "SigmaSMS"
+
+panel=SamiTime
+PANEL_BASE_URL = "http://www.timesms.net"
+PANEL_USERNAME = "Samiullahjappa"
+PANEL_PASSWORD = "Samiullahjappa"
+
+panel=XAP
+PANEL_BASE_URL = "http://147.135.212.148/ints"
+PANEL_USERNAME = "SigmaOTP"
+PANEL_PASSWORD = "SigmaOTP"
