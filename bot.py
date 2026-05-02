@@ -87,16 +87,16 @@ async def safe_edit(query, text: str, reply_markup=None, parse_mode="HTML"):
 # ═══════════════════════════════════════════════════════════
 #  DEFAULT CONSTANTS  (overridden by config.json)
 # ═══════════════════════════════════════════════════════════
-BOT_TOKEN         = "8307457001:AAHLA_CSXTGdYyLPStDhR1wsWSZ46df3whA"
-BOT_USERNAME      = "PakOTPBot"
-INITIAL_ADMIN_IDS = [7763727542, 7057157722, 7968271742, 7831921606, 8222195948]
-SUPPORT_USER      = "@ownersigma"
+BOT_TOKEN         = "" # PUT HERE BOT TOKEN
+BOT_USERNAME      = "" # PUT HERE BOT USERNAME WITHOUT @
+INITIAL_ADMIN_IDS = [] # PUT HERE ADMIN IDS SEPARTED BY COMMAS
+SUPPORT_USER      = "" # PUT HERE SUPPORT USERNAME WITH @
 DEVELOPER         = "@NONEXPERTCODER"
-OTP_GROUP_LINK    = "https://t.me/sigmaotpgc"
-GET_NUMBER_URL    = "https://t.me/PakOTPBOT"
-NUMBER_BOT_LINK   = "https://t.me/PakOTPBOT"
-CHANNEL_LINK      = ""
-CHANGE_COOLDOWN_S = 7
+OTP_GROUP_LINK    = "" # PUT HERE OTP GROUP LINK
+GET_NUMBER_URL    = "" # PUT HERE NUMBER CHANNEL LINK
+NUMBER_BOT_LINK   = "" # PUT HERE NUMBER BOT LINK
+CHANNEL_LINK      = "" # PUT HERE CHANNEL LINK
+CHANGE_COOLDOWN_S = 5
 COUNTRIES_FILE    = "countries.json"
 DEX_FILE          = "dex.txt"
 SEEN_DB_FILE      = "sms_database_np.db"
